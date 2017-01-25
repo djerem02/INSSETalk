@@ -1,0 +1,6 @@
+framework module Pods_INSSETalk {
+  umbrella header "Pods-INSSETalk-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12AAE54F18C01DE675077967 /* Pods_INSSETalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE57326C274DBCA520771498 /* Pods_INSSETalk.framework */; };
+		3FB749B11E388EEB00EC4BDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB749B01E388EEB00EC4BDC /* AppDelegate.swift */; };
+		3FB749B31E388EEB00EC4BDC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB749B21E388EEB00EC4BDC /* ViewController.swift */; };
+		3FB749B61E388EEB00EC4BDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FB749B41E388EEB00EC4BDC /* Main.storyboard */; };
+		3FB749B81E388EEB00EC4BDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FB749B71E388EEB00EC4BDC /* Assets.xcassets */; };
+		3FB749BB1E388EEB00EC4BDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FB749B91E388EEB00EC4BDC /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3FB749AD1E388EEB00EC4BDC /* INSSETalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = INSSETalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FB749B01E388EEB00EC4BDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FB749B21E388EEB00EC4BDC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FB749B51E388EEB00EC4BDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FB749B71E388EEB00EC4BDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FB749BA1E388EEB00EC4BDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FB749BC1E388EEB00EC4BDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		488BE1B85E8B4C6069D8330C /* Pods-INSSETalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-INSSETalk.release.xcconfig"; path = "Pods/Target Support Files/Pods-INSSETalk/Pods-INSSETalk.release.xcconfig"; sourceTree = "<group>"; };
+		BE57326C274DBCA520771498 /* Pods_INSSETalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_INSSETalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB776ACA36CF38A3079FEFB4 /* Pods-INSSETalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-INSSETalk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-INSSETalk/Pods-INSSETalk.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FB749AA1E388EEB00EC4BDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12AAE54F18C01DE675077967 /* Pods_INSSETalk.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FB749A41E388EEB00EC4BDC = {
+			isa = PBXGroup;
+			children = (
+				3FB749AF1E388EEB00EC4BDC /* INSSETalk */,
+				3FB749AE1E388EEB00EC4BDC /* Products */,
+				513C8279AC5E5B26A1B8E5D1 /* Pods */,
+				ED289DC5D440117BEB061510 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3FB749AE1E388EEB00EC4BDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FB749AD1E388EEB00EC4BDC /* INSSETalk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FB749AF1E388EEB00EC4BDC /* INSSETalk */ = {
+			isa = PBXGroup;
+			children = (
+				3FB749B01E388EEB00EC4BDC /* AppDelegate.swift */,
+				3FB749B21E388EEB00EC4BDC /* ViewController.swift */,
+				3FB749B41E388EEB00EC4BDC /* Main.storyboard */,
+				3FB749B71E388EEB00EC4BDC /* Assets.xcassets */,
+				3FB749B91E388EEB00EC4BDC /* LaunchScreen.storyboard */,
+				3FB749BC1E388EEB00EC4BDC /* Info.plist */,
+			);
+			path = INSSETalk;
+			sourceTree = "<group>";
+		};
+		513C8279AC5E5B26A1B8E5D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB776ACA36CF38A3079FEFB4 /* Pods-INSSETalk.debug.xcconfig */,
+				488BE1B85E8B4C6069D8330C /* Pods-INSSETalk.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ED289DC5D440117BEB061510 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE57326C274DBCA520771498 /* Pods_INSSETalk.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FB749AC1E388EEB00EC4BDC /* INSSETalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FB749BF1E388EEB00EC4BDC /* Build configuration list for PBXNativeTarget "INSSETalk" */;
+			buildPhases = (
+				72AADDDCEB397A6DD73722C6 /* [CP] Check Pods Manifest.lock */,
+				3FB749A91E388EEB00EC4BDC /* Sources */,
+				3FB749AA1E388EEB00EC4BDC /* Frameworks */,
+				3FB749AB1E388EEB00EC4BDC /* Resources */,
+				C6E5477A239E51869B7488DD /* [CP] Embed Pods Frameworks */,
+				066DE30C9FD02C5FA06C49F8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = INSSETalk;
+			productName = INSSETalk;
+			productReference = 3FB749AD1E388EEB00EC4BDC /* INSSETalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FB749A51E388EEB00EC4BDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Jérémy";
+				TargetAttributes = {
+					3FB749AC1E388EEB00EC4BDC = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 89P3LVL5ZT;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3FB749A81E388EEB00EC4BDC /* Build configuration list for PBXProject "INSSETalk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FB749A41E388EEB00EC4BDC;
+			productRefGroup = 3FB749AE1E388EEB00EC4BDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FB749AC1E388EEB00EC4BDC /* INSSETalk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FB749AB1E388EEB00EC4BDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB749BB1E388EEB00EC4BDC /* LaunchScreen.storyboard in Resources */,
+				3FB749B81E388EEB00EC4BDC /* Assets.xcassets in Resources */,
+				3FB749B61E388EEB00EC4BDC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		066DE30C9FD02C5FA06C49F8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-INSSETalk/Pods-INSSETalk-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72AADDDCEB397A6DD73722C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C6E5477A239E51869B7488DD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-INSSETalk/Pods-INSSETalk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FB749A91E388EEB00EC4BDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB749B31E388EEB00EC4BDC /* ViewController.swift in Sources */,
+				3FB749B11E388EEB00EC4BDC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3FB749B41E388EEB00EC4BDC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FB749B51E388EEB00EC4BDC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FB749B91E388EEB00EC4BDC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FB749BA1E388EEB00EC4BDC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FB749BD1E388EEB00EC4BDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FB749BE1E388EEB00EC4BDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FB749C01E388EEB00EC4BDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB776ACA36CF38A3079FEFB4 /* Pods-INSSETalk.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 89P3LVL5ZT;
+				INFOPLIST_FILE = INSSETalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mydjer.INSSETalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3FB749C11E388EEB00EC4BDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 488BE1B85E8B4C6069D8330C /* Pods-INSSETalk.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 89P3LVL5ZT;
+				INFOPLIST_FILE = INSSETalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mydjer.INSSETalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FB749A81E388EEB00EC4BDC /* Build configuration list for PBXProject "INSSETalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FB749BD1E388EEB00EC4BDC /* Debug */,
+				3FB749BE1E388EEB00EC4BDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FB749BF1E388EEB00EC4BDC /* Build configuration list for PBXNativeTarget "INSSETalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FB749C01E388EEB00EC4BDC /* Debug */,
+				3FB749C11E388EEB00EC4BDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FB749A51E388EEB00EC4BDC /* Project object */;
+}
